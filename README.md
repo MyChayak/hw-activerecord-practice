@@ -53,7 +53,7 @@ However, you won't execute this file directly.  Instead, you will use the specfi
 
 * Run the test file once with `bundle exec rspec spec/activerecord_practice_spec.rb`.  (Recall that `bundle exec` is needed to ensure that the correct version(s) of required gem(s) are properly loaded and activated before your code runs.)  The result should be "13 examples, 0 failures, 13 pending."
 
-We've set up the tests so that initially all tests are skipped.  (They would all fail, because you haven't written the code for them yet.) Open the specfile and take a look. Your workflow will be as follows:
+We've set up the tests so that initially all tests are skipped.  (They would all fail, because you haven't written the code for them yet.) Open the specfile and take a look. Your workflow will be as follows:cd
 
 1. Pick an example to work on (we recommend doing them in order). Each example (test case) begins with `xspecify`.
 
